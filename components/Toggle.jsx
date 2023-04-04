@@ -7,10 +7,8 @@ import { useMediaQuery } from 'react-responsive'
 const Hamburger = ({toggle, isOpen}) => {
   const isSmallScreen = useMediaQuery({query:"(max-width: 1000px)"});
 
-  
-
   return (
-    <button onClick={()=>toggle()} style={isSmallScreen ? styles.smallButton : styles.button}>
+    <button onClick={()=>toggle()} style={!isSmallScreen ? styles.smallButton : styles.button}>
       <motion.span
         animate={{ rotate: isOpen ? 45 : 0 }}
         transition={{ duration: 0.3 }}
