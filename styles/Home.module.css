@@ -409,10 +409,11 @@
 .works_grid .work div{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 22px;
     column-gap: .5rem;
     padding-top: .7rem;
+    width: 100%;
 }
 
 .works_grid .work div a{
@@ -590,7 +591,7 @@
         font-size: 22px;
     }
     .works .works_head div{
-        width: 49%;
+        width: 45%;
     }
     .bt_line{
         margin-left: 0;
