@@ -50,7 +50,7 @@
     width: 100%;
     display: flex;
     background-image: url("https://cdn.dribbble.com/users/2453117/screenshots/5739782/80s_vibes.gif");
-  background-color: rgba(0,0,0,0.93);
+  background-color: rgba(0,0,0,0.92);
   background-blend-mode: darken;
   background-position: left;
   background-repeat: no-repeat;
@@ -580,7 +580,7 @@
         width: 750px;
         height: 700px;
         object-fit: cover;
-        opacity: .06;
+        opacity: .1;
     }
 
     .works{
