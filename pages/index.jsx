@@ -3,7 +3,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 import Hamburger from "@/components/Toggle";
-import { useMediaQuery } from "@material-ui/core";
 import { useEffect, useState } from "react";
 import Drawer from "@/components/Drawer";
 import AOS from "aos";
@@ -11,7 +10,6 @@ import "aos/dist/aos.css";
 import Work from "@/components/Work";
 
 export default function Home() {
-  const isSmallScreen = useMediaQuery("(max-width: 1030px)");
   const [drawerWidth, setDrawerWidth] = useState(0);
   const [drawerPadding, setDrawerPadding] = useState(0);
   const [isOpen, setIsOpen] = useState(false);

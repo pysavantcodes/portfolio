@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useMediaQuery } from "@material-ui/core";
+import { useMediaQuery } from 'react-responsive'
 
 
 
 const Hamburger = ({toggle, isOpen}) => {
-  const isSmallScreen = useMediaQuery("(max-width: 1000px)");
+  const isSmallScreen = useMediaQuery({query:"(max-width: 1000px)"});
 
   
 
