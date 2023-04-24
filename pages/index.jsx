@@ -57,6 +57,15 @@ export default function Home() {
   const works = [
     {
       image:
+        "https://user-images.githubusercontent.com/110984357/234081938-b941da26-a3b9-4688-8ed2-fc6cf28d50cb.png",
+      name: "DevCom",
+      about: "Community application that connects developers and enables them to share github projects in-app",
+      lang: "React Native · Firebase · Android",
+      link: "https://files.fm/f/uy42txubj",
+      github: "https://github.com/pysavantcodes/DevCom",
+    },
+    {
+      image:
         "https://user-images.githubusercontent.com/110984357/229850592-438d9118-e024-4bef-863e-773cb34ce59d.png",
       name: "My Portfolio",
       about: "Seamless portfolio built and designed with NextJs 13.",
