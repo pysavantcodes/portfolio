@@ -9,7 +9,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Work from "@/components/Work";
 import { SpinnerDotted, SpinnerInfinity } from "spinners-react";
-import { useMediaQuery } from 'react-responsive'
 
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
   const [drawerPadding, setDrawerPadding] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
-  const isSmallScreen = useMediaQuery({query:"(max-width: 1000px)"});
 
   useEffect(() => {
     AOS.init();
@@ -156,7 +154,7 @@ export default function Home() {
           />
           <section className={styles.body}>
             <Nav />
-            {isSmallScreen && <Hamburger
+            <Hamburger
               isOpen={isOpen}
               setIsOpen={() => setIsOpen(!isOpen)}
               toggle={() => {
@@ -164,7 +162,7 @@ export default function Home() {
                 setDrawerWidth(drawerWidth === 0 ? "100%" : 0);
                 setDrawerPadding(drawerPadding === 0 ? "3rem" : 0);
               }}
-            />}
+            />
 
             <section className={styles.main_body}>
               <section id="header" className={styles.header}>
