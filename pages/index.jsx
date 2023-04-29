@@ -1,4 +1,4 @@
-import Nav from "@/components/Nav";
+llpimport Nav from "@/components/Nav";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
@@ -62,7 +62,7 @@ export default function Home() {
       name: "DevCom",
       about: "Community application that connects developers and enables them to share github projects in-app",
       lang: "React Native · Firebase · Android",
-      link: "https://files.fm/f/uy42txubj",
+      link: "https://files.fm/f/uwdn739nc",
       github: "https://github.com/pysavantcodes/DevCom",
     },
     {
