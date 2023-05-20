@@ -56,6 +56,16 @@ export default function Home() {
   ];
 
   const works = [
+    
+    {
+      image:
+        "https://user-images.githubusercontent.com/110984357/239691732-43854001-123e-4aeb-9096-117d1db104f9.png",
+      name: "Infiniti Vault",
+      about: "Decentralized file storage system, that utilizes the IPFS Network. unlimited? I guess🤷‍♂️😂",
+      lang: "React JS · Node JS · IPFS · DApp",
+      link: "https://infiniti-vault.netlify.app/",
+      github: "https://github.com/pysavantcodes/Infiniti-Vault",
+    },
     {
       image:
         "https://user-images.githubusercontent.com/110984357/234081938-b941da26-a3b9-4688-8ed2-fc6cf28d50cb.png",
