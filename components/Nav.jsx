@@ -1,6 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import {
   SlSocialTwitter,
@@ -13,7 +11,7 @@ const Nav = () => {
   return (
     <nav
     >
-      <a href="#header">PYSAVANT</a>
+      {/* <a href="#header">PYSAVANT</a> */}
       <a href="#works">WORKS</a>
       <a href="#about">ABOUT</a>
       <a href="#footer">CONTACT</a>

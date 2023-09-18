@@ -49,12 +49,7 @@
     color: white;
     width: 100%;
     display: flex;
-    background-image: url("https://cdn.dribbble.com/users/2453117/screenshots/5739782/80s_vibes.gif");
   background-color: rgba(0,0,0,0.92);
-  background-blend-mode: darken;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 50% 100%;
 
 }
 
@@ -65,6 +60,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .header .left h1{
@@ -163,6 +160,9 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .particle {
@@ -353,7 +353,8 @@
     align-items: center;
     justify-content: center;
     filter: saturate(100%) brightness(80%);
-    position: relative;
+    
+      
 }
 
 
@@ -499,6 +500,20 @@
     opacity: .5;
 }
 
+
+.hamburger{
+    display: none;
+}
+
+.imgs{
+    max-width: 270px;
+    max-height: 270px;
+    display: none;
+    object-fit: contain;
+    margin-top: 1.5rem;
+}
+
+
 @media (max-width:1030px) {
     .body nav{
         display: none;
@@ -506,6 +521,7 @@
     .body .main_body{
         margin-left: 0;
     }
+    
     .header{
         display: block;
         background-size: cover;
@@ -513,6 +529,9 @@
     }
     .right{
         display: none;
+    }
+    .imgs{
+        display: block;
     }
     .header .left h1{
         font-size: 60px;
@@ -602,6 +621,8 @@
     
 }
 
+
+
 @media (max-width:700px) {
     .works_grid{
         grid-template-columns: auto;
@@ -612,4 +633,5 @@
         font-size: 13px;
         
     }
+ 
 }
