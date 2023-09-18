@@ -56,11 +56,22 @@ export default function Home() {
   const works = [
     {
       image:
+        "https://user-images.githubusercontent.com/110984357/268758189-ae93ba7e-22a5-4b79-97a7-206164fdc3d8.png",
+      name: "Julieth AI Mobile App",
+      about:
+        "Worked on the Julieth AI Mobile app that aids education with the help of an integrated AI tutor.",
+      lang: "React Native, Expo, Redux",
+      link: "",
+      github:"",
+      playstore:"https://play.google.com/store/apps/details?id=com.juliethai.app"
+    },
+    {
+      image:
         "https://user-images.githubusercontent.com/110984357/239691732-43854001-123e-4aeb-9096-117d1db104f9.png",
       name: "Infiniti Vault",
       about:
         "Decentralized file storage system, that utilizes the IPFS Network. unlimited? I guess🤷‍♂️😂",
-      lang: "React JS · Node JS · IPFS · DApp",
+      lang: "React JS, Node JS, IPFS, DApp",
       link: "https://infiniti-vault.netlify.app/",
       github: "https://github.com/pysavantcodes/Infiniti-Vault",
     },
@@ -70,7 +81,7 @@ export default function Home() {
       name: "DevCom",
       about:
         "Community application that connects developers and enables them to share github projects in-app",
-      lang: "React Native · Firebase · Android",
+      lang: "React Native, Firebase, Android",
       link: "https://files.fm/f/uwdn739nc",
       github: "https://github.com/pysavantcodes/DevCom",
     },
@@ -79,7 +90,7 @@ export default function Home() {
         "https://user-images.githubusercontent.com/110984357/229850592-438d9118-e024-4bef-863e-773cb34ce59d.png",
       name: "My Portfolio",
       about: "Seamless portfolio built and designed with NextJs 13.",
-      lang: "Next.js 13 · Framer Motion · AOS",
+      lang: "Next.js 13, Framer Motion, AOS",
       link: "https://pysavant.netlify.app",
       github: "https://github.com/pysavantcodes/portfolio",
     },
@@ -97,7 +108,7 @@ export default function Home() {
         "https://user-images.githubusercontent.com/110984357/229824797-c8c11aeb-b9ac-4826-852d-1ab5f5bc1264.png",
       name: "Pyshare",
       about: "A Non DB, Room based web app for sharing images seamlessly.",
-      lang: "Next.js 13 · Tailwind CSS · Node Js · Socket.io",
+      lang: "Next.js 13, Tailwind CSS, Node Js, Socket.io",
       link: "https://pyshare.netlify.app",
       github: "https://github.com/pysavantcodes/Pyshare",
     },
@@ -136,7 +147,7 @@ export default function Home() {
       name: "ShieldCoin DApp",
       about:
         "DApp for shield coin token. Containing NFT, Swap, Stake, Airdrop, LaunchPad, etc. (Group Project)",
-      lang: "ReactJS · Solidity · NodeJs · MongoDB",
+      lang: "ReactJS, Solidity, NodeJs, MongoDB",
       link: "https://shieldcoindapp.com",
       github: "https://github.com/pysavantcodes/shield-Pact-site/",
     },
@@ -282,6 +293,7 @@ export default function Home() {
                       github={work.github}
                       link={work.link}
                       lang={work.lang}
+                      playstore={work.playstore ? work.playstore : ""}
                       keyVal={index}
                     />
                   );

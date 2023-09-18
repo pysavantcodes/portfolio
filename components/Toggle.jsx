@@ -37,7 +37,6 @@ const styles = {
     top:"3rem",
     zIndex:"9999999",
     right:"2.5rem",
-    display:"flex",
     
   },
   line: {
