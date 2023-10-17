@@ -67,11 +67,11 @@ export default function Home() {
     },
     {
       image:
-        "https://user-images.githubusercontent.com/110984357/239691732-43854001-123e-4aeb-9096-117d1db104f9.png",
+        "https://bafkreiawfcgpc6eizklw5wvu4neobs5qnt5r4n5zudifrb3ja5oii5s7ay.ipfs.w3s.link",
       name: "Infiniti Vault",
       about:
         "Decentralized file storage system, that utilizes the IPFS Network. unlimited? I guess🤷‍♂️😂",
-      lang: "React JS, Node JS, IPFS, DApp",
+      lang: "React JS, Node JS, IPFS, Web3",
       link: "https://infiniti-vault.netlify.app/",
       github: "https://github.com/pysavantcodes/Infiniti-Vault",
     },
