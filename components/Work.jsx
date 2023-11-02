@@ -47,7 +47,7 @@ const Work = ({
           );
         })}
       </p>
-      <div>
+      <div style={{flexDirection:"row", display:"flex", alignItems:"center", columnGap:"10px"}}>
         {github === "" ? null : (
           <a href={github}>
             <FiGithub color="white" />
@@ -65,7 +65,7 @@ const Work = ({
         )}
         {ios == "" ? null : (
           <a href={ios}>
-            <FaApple color="white" size={24}/>
+            <FaApple color="white" size={26}/>
           </a>
         )}
       </div>
