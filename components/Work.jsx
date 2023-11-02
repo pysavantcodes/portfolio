@@ -63,8 +63,8 @@ const Work = ({
             <FaGooglePlay color="white" />
           </a>
         )}
-        {playstore == "" ? null : (
-          <a href={playstore}>
+        {ios == "" ? null : (
+          <a href={ios}>
             <FaApple color="white" size={21}/>
           </a>
         )}
