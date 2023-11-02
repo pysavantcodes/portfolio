@@ -63,7 +63,8 @@ export default function Home() {
       lang: "React Native, Expo, Redux",
       link: "",
       github:"",
-      playstore:"https://play.google.com/store/apps/details?id=com.juliethai.app"
+      playstore:"https://play.google.com/store/apps/details?id=com.juliethai.app",
+      ios:"https://apps.apple.com/ng/app/julieth-ai/id6469009527"
     },
     {
       image:
@@ -294,6 +295,7 @@ export default function Home() {
                       link={work.link}
                       lang={work.lang}
                       playstore={work.playstore ? work.playstore : ""}
+                      ios={work.ios ? work.ios : ""}
                       keyVal={index}
                     />
                   );

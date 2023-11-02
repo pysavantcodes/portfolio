@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { FiGithub, FiExternalLink, FiPlay } from "react-icons/fi";
-import { FaGooglePlay } from "react-icons/fa";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 import styles from "../styles/Home.module.css";
 
 const Work = ({
@@ -12,6 +12,7 @@ const Work = ({
   link,
   github,
   playstore,
+  ios
 }) => {
   return (
     <div
@@ -60,6 +61,11 @@ const Work = ({
         {playstore == "" ? null : (
           <a href={playstore}>
             <FaGooglePlay color="white" />
+          </a>
+        )}
+        {playstore == "" ? null : (
+          <a href={playstore}>
+            <FaApple color="white" />
           </a>
         )}
       </div>
