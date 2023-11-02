@@ -65,7 +65,7 @@ const Work = ({
         )}
         {ios == "" ? null : (
           <a href={ios}>
-            <FaApple color="white" size={21}/>
+            <FaApple color="white" size={24}/>
           </a>
         )}
       </div>
