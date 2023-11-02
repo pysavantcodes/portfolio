@@ -65,7 +65,7 @@ const Work = ({
         )}
         {playstore == "" ? null : (
           <a href={playstore}>
-            <FaApple color="white" />
+            <FaApple color="white" size={21}/>
           </a>
         )}
       </div>
