@@ -517,6 +517,19 @@
     margin-top: 1.5rem;
 }
 
+.stacks{
+    display: flex;
+    flex-wrap: wrap;
+    gap:.6rem;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.stacks span:hover{
+    border:1px solid white;
+}
 
 @media (max-width:1030px) {
     .body nav{

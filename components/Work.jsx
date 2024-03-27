@@ -39,7 +39,8 @@ const Work = ({
                 justifyContent: "center",
                 width: "fit-content",
                 borderRadius:"15px",
-                paddingTop:"8px"
+                paddingTop:"8px",
+                border:"1px solid rgba(255,255,255,0.15)"
               }}
             >
               {stack}
