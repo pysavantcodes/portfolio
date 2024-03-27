@@ -20,7 +20,7 @@ export const works = [
     about:
       "Built the portfolio website for Spark of Lagos.",
     lang: "React JS, GSAP, Framer Motion",
-    link: "https://sparkoflagos.com",
+    link: "https://www.sparkoflagos.com/",
     github: "",
   },
   {
