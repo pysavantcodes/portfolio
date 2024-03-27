@@ -10,7 +10,6 @@ import "aos/dist/aos.css";
 import Work from "@/components/Work";
 import { SpinnerDotted } from "spinners-react";
 import image from "../assets/image.png";
-import Lenis from "@studio-freight/lenis";
 import { stacks, works } from "@/utils/data";
 
 export default function Home() {
@@ -40,24 +39,6 @@ export default function Home() {
       document.body.classList.remove("drawer-open");
     }
   }, [isOpen]);
-
-  const lenis = new Lenis({
-    duration: 1.2,
-    easing: (x) => (x === 1 ? 1 : 1 - Math.pow(2, -10 * x)), // https://www.desmos.com/calculator/brs54l4xou
-    direction: "vertical", // vertical, horizontal
-    gestureDirection: "vertical", // vertical, horizontal, both
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false,
-  });
-  
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-  
-  requestAnimationFrame(raf);
 
   return (
     <>
